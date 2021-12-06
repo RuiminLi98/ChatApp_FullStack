@@ -1,0 +1,329 @@
+/**************landing page**************/
+.landing_label {
+    padding: 10px;
+}
+
+.landing_btn {
+    width: 200px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+/**************main page**************/
+/**************first column**************/
+.user_name {
+    grid-area: user_name;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.notification {
+    grid-area: notification;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+}
+
+.user_info {
+    grid-area: user_info;
+    width: 150px;
+    height: 300px;
+    padding: 5px;
+    background-color: white;
+}
+
+.logout_btn {
+    grid-area: logout_btn;
+    width: 150px;
+    height: 100px;
+    background-color: white;
+}
+
+/**************second column**************/
+.rooms_title {
+    grid-area: rooms_title;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.rooms {
+    grid-area: rooms;
+    width: 250px;
+    height: 320px;
+    /*padding-left: 5px;*/
+    background-color: white;
+    overflow-y: auto;
+}
+
+.room_btn_container {
+    grid-area: buttons1;
+    width: 250px;
+    height: 133px;
+    font-size:0px;
+    background-color: white;
+}
+
+.room_btn {
+    width: 100%;
+    height: 75px;
+    /*background-color: white;*/
+    border: 1px solid lightskyblue;
+}
+
+/*user_btn {
+    width: 82px;
+    height: 133px;
+    background-color: white;
+}*/
+
+/**************third column**************/
+.room_name {
+    grid-area: room_name;
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.outputArea {
+    grid-area: outputArea;
+    width: 500px;
+    height: 320px;
+    padding-left: 5px;
+    background-color: white;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.popover_btn {
+    width: auto;
+    height: 100%;
+    border: 1px solid lightskyblue;
+}
+
+.icons {
+    grid-area: icons;
+    width: 500px;
+    height: 30px;
+    padding-left: 5px;
+    background-color: white;
+}
+
+.inputArea {
+    grid-area: inputArea;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/**************forth column**************/
+.description {
+    grid-area: description;
+    width: 200px;
+    height: 50px;
+    line-height: 25px;
+    text-align: center;
+    background-color: white;
+}
+
+.members {
+    grid-area: members;
+    width: 200px;
+    height: 200px;
+    padding-left: 0px;
+    background-color: white;
+    overflow-y: auto;
+}
+
+.member_btn {
+    width: 100%;
+    height: 50px;
+    border: 1px solid lightskyblue;
+    text-align: left;
+    padding-left: 5px;
+    /*background-color: white;*/
+}
+
+
+.group_btn_container {
+    grid-area: buttons2;
+    width: 200px;
+    height: 150px;
+    background-color: white;
+}
+
+.group_btn {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+}
+
+.enter {
+    grid-area: enter;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+}
+
+/*.btn-leaveAll {
+    width: 50%;
+    height: 100%;
+    border: 1px solid lightskyblue;
+}*/
+
+/**************containers**************/
+.container {
+    display: grid;
+    grid-template-areas:
+                'user_name rooms_title room_name room_name description'
+                'notification rooms outputArea outputArea members'
+                'user_info rooms outputArea outputArea members'
+                'user_info rooms outputArea outputArea buttons2'
+                'user_info buttons1 icons icons buttons2'
+                'logout_btn buttons1 inputArea inputArea enter';
+    grid-gap: 3px;
+    background-color: lightskyblue;
+    padding: 5px;
+    width: 1120px;
+    margin:auto;
+}
+
+select, label {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.btn {
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightskyblue;
+}
+
+.text_btn {
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+
+/*div {
+    background-color: white;
+    text-align: center;
+
+}*/
+
+/**************internal attributes**************/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    opacity: 1;
+}
+
+
+/**************external chat**************/
+
+.chat .chat-history {
+    padding: 20px;
+
+}
+
+.chat .chat-history ul {
+    padding: 0
+}
+
+.chat .chat-history ul li {
+    list-style: none;
+    margin-bottom: 30px
+}
+
+.chat .chat-history ul li:last-child {
+    margin-bottom: 0px
+}
+
+.chat .chat-history .message-data {
+    margin-bottom: 15px
+}
+
+.chat .chat-history .message-data img {
+    border-radius: 40px;
+    width: 40px
+}
+
+.chat .chat-history .message-data-time {
+    color: #434651;
+    padding-left: 6px
+}
+
+.chat .chat-history .message {
+    color: #444;
+    padding: 9px 10px;
+    line-height: 26px;
+    font-size: 16px;
+    border-radius: 7px;
+    display: inline-block;
+    position: relative
+}
+
+.chat .chat-history .message:after {
+    bottom: 100%;
+    left: 7%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: #fff;
+    border-width: 10px;
+    margin-left: -10px
+}
+
+.chat .chat-history .my-message {
+    background: #efefef
+}
+
+.chat .chat-history .my-message:after {
+    bottom: 100%;
+    left: 30px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: #efefef;
+    border-width: 10px;
+    margin-left: -10px
+}
+
+.chat .chat-history .other-message {
+    background: #e8f1f3;
+    text-align: right
+}
+
+.chat .chat-history .other-message:after {
+    border-bottom-color: #e8f1f3;
+    left: 90%
+}
+
+.chat .chat-message {
+    padding: 20px
+}

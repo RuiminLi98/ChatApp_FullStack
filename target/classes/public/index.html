@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Group D">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <script src="js/landing.js"></script>
+    <link rel="stylesheet" type="text/css" href="chatApp.css">
+    <title>Landing Page</title>
+</head>
+
+
+<body>
+<form class='card p-3 bg-light col-lg-6 offset-lg-3'
+      method="post" id = "registerInfo" action="main.html">
+    <h1 align="center">Landing Page</h1>
+    <h5 align="center">
+        <label class="landing_label" for="usernameLogin" >Username</label>
+        <input rows="10" cols="10" id="usernameLogin" name="usernameLogin">
+        <span id="usernameLoginAlert"></span>
+    </h5>
+    <br>
+    <h5 align="center">
+        <label class="landing_label" for="passwordLogin" >Password</label>
+        <input type="password" rows="10" cols="10" id="passwordLogin" name="passwordLogin">
+        <span id="passwordLoginAlert"></span>
+    </h5>
+    <br>
+    <h5 align="center">
+        <input type="button" id="btn_log" class="landing_btn btn-primary" value="Log In">
+        <button type="button" class="landing_btn btn-primary" data-toggle="modal"
+                data-target="#registerForm">Register</button>
+    </h5>
+</form>
+
+<!-- Button trigger modal -->
+<!-- Modal -->
+<div class="modal fade" id="registerForm" tabindex="-1"
+     role="dialog" aria-labelledby="registerFormLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="registerFormLabel">
+                    Register Page
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="infoClass">
+                <br>
+                <label class="landing_label" for="username" >
+                    Username:
+                </label>
+                <input rows="10" cols="10" id="username" name="username">
+                    <span id="usernameAlert"></span>
+                <br>
+                </input>
+            </div>
+            <!--<div class="infoClass">
+                <label for="email" >Email:</label>
+                <input type="email" id="email" name="email" pattern='[a-zA-Z0-9.]*@[A-Za-z0-9./\|]*' placeholder="rl88@rice.edu">
+                <span id="emailAlert"></span><br>
+                </input>
+            </div>-->
+            <div class="infoClass">
+                <label class="landing_label" for="school" >
+                    School:
+                </label>
+                <input type="text" id="school" name="school">
+                    <span id="schoolAlert"></span>
+                <br>
+                </input>
+            </div>
+            <div class="infoClass">
+                <label class="landing_label" for="age" >
+                    Age:
+                </label>
+                <input type="text" id="age" name="age">
+                    <span id="ageAlert"></span>
+                <br>
+                </input>
+            </div>
+            <div class="infoClass">
+                <label class="landing_label" for="interests" >
+                    Interests:
+                </label>
+                <input type="text" id="interests" name="interests" placeholder="swim, music" pattern="[a-zA-Z\s]+(,[ ]*[a-zA-Z]+)*">
+                    <span id="interestsAlert"></span>
+                    <span id="interestsInstr">split by comma</span>
+                <br>
+                </input>
+            </div>
+            <!--<div class="infoClass">
+                <label for="phone" >Phone:</label>
+                <input type="text" id="phone" name="phone" pattern='[0-9]{10}' placeholder="1234567890">
+                <span id="phoneAlert"></span><br>
+                </input>
+            </div>
+            <div class="infoClass">
+                <label for="zipcode" >Zip:</label>
+                <input type="tel" id="zipcode" name="zipcode" pattern='[0-9]{5}' placeholder="77030">
+                <span id="zipcodeAlert"></span>
+                <br>
+                </input>
+            </div>-->
+            <div class="infoClass">
+                <label class="landing_label" for="password" >
+                    Password:
+                </label>
+                <input type="password" id="password" name="password">
+                    <span id="passwordAlert"></span>
+                <!--
+                    <script>
+                        let len = document.getElementById("password").innerText.length;
+                        document.getElementById("password").innerText = "";
+                        for (let i = 0; i < len; i++){
+                            document.getElementById("password").innerText +="*";
+                        }
+                    </script>
+                -->
+                <br>
+                <label class="landing_label" for="passwordSecond" >
+                    Password Confirmation:
+                </label>
+                <input type="password" id="passwordSecond" name="passwordSecond">
+                    <span id="passwordSecondAlert"></span>
+            </div>
+            <br>
+            <button class="btn btn-primary" id="btn_register">Register</button>
+            <button class="btn btn-primary" id="btn_clear" >Clear</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>

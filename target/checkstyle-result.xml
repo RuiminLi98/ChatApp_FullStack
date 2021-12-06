@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\adapter\WebSocketAdapter.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\controller\ChatAppController.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\chatroom\ChatRoom.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\chatroom\GroupChat.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\chatroom\NullRoom.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\chatroom\UserChat.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\message\CompositeMessage.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\message\ImageMessage.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\message\IMessageFac.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\message\Message.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\message\MessageFac.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\message\NullMessage.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\message\TextMessage.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\MessageDB.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\MsgToClientSender.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\notification\AcceptNotification.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\notification\ApplyNotification.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\notification\INotificationFac.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\notification\InteractNotification.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\notification\InviteNotification.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\notification\KickNotification.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\notification\MuteNotification.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\notification\Notification.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\notification\NotificationFac.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\notification\NullNotification.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\notification\RejectNotification.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\notification\SimpleNotification.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\notification\WarningNotification.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\roomcmd\IRoomCmd.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\roomcmd\IRoomCmdFac.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\roomcmd\RoomCmdFac.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\roomcmd\UpdateRoomCommand.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\RoomDB.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\roomstrategy\IRoomStrategyFac.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\roomstrategy\IUpdateRoomStrategy.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\roomstrategy\RemoveUserStrategy.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\roomstrategy\RoomStrategyFac.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\user\NullUser.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\user\RegisteredUser.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\user\User.java">
+</file>
+<file name="D:\RICE 1ST\CS504\抢救版\chatApp\src\main\java\edu\rice\comp504\model\UserDB.java">
+</file>
+</checkstyle>
