@@ -1,6 +1,6 @@
 https://chataapp-final-team-doges.herokuapp.com/
 
-A full stack app similar to WeChat.
+A full stack social media app.
 
 A user must initiate the creation of a chat room with a room size
 
